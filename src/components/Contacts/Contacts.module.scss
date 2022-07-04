@@ -1,0 +1,27 @@
+.cotactsList {
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: disc;
+    margin-left: 40px;
+    font-size: 22px;
+    &:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}
+
+.deleteButton {
+    padding: 2px 3px;
+    background-color: rgb(117, 117, 204);
+    border: none;
+    box-shadow: 1px 1px 1px;
+    border-radius: 3px;
+    width: 60px;
+    &:hover {
+        background-color: rgb(169, 185, 23);
+        cursor: pointer;
+    }
+}

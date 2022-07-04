@@ -1,0 +1,43 @@
+.phonebookFormWrapper {
+    display: inline-block;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.inputLabel {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.formInput {
+    display: block;
+    width: 200px;
+    font-size: 16px;
+    padding: 3px 5px;
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 3px;
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 10px 0px rgb(60, 60, 204);
+    }
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+
+.button {
+    padding: 3px 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px;
+    background-color: rgb(117, 117, 204);
+    &:hover {
+        background-color: rgb(169, 185, 23);
+        cursor: pointer;
+    }
+
+}
